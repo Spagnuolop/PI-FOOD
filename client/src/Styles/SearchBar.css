@@ -1,0 +1,43 @@
+.search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inputSearch {
+  height: 20px;
+  background-color: pink;
+  font-weight: bold;
+  border-color: pink;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0 rgb(173, 98, 111);
+}
+
+.inputSearch::placeholder {
+  color: black;
+  font-weight: normal;
+}
+
+.inputSearch:hover {
+  cursor: text;
+}
+
+.btnSearch {
+  height: 26px;
+  background-color: pink;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 3px 3px 0 rgb(173, 98, 111);
+}
+
+.btnSeacrh:active {
+  transform: translateY(2px);
+}
+
+.btnSearch:hover {
+  cursor: pointer;
+}
+
+.btnSearch:active {
+  transform: translateY(2px);
+}

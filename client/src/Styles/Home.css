@@ -1,0 +1,70 @@
+.home {
+  top: 0;
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.title1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.btnHome {
+  width: 130px;
+  height: 30px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+  box-shadow: 0 3px 3px 0 rgb(173, 98, 111);
+}
+
+.btnHome:hover {
+  cursor: pointer;
+}
+
+.btnHome:active {
+  background-color: rgb(173, 98, 111);
+  transform: translateY(2px);
+}
+
+.options {
+  width: 140px;
+  height: 25px;
+  background-color: pink;
+  font-weight: bold;
+  border: 1.5px solid rgb(255, 153, 170);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 3px 0 rgb(173, 98, 111);
+}
+
+.options:hover {
+  cursor: pointer;
+}
+
+.p {
+  font-weight: bold;
+}
+
+.linkCard {
+  text-decoration: none;
+  color: black;
+}
+
+.linkBtn {
+  text-emphasis: none;
+  color: black;
+}

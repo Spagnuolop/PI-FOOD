@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btnNav {
+  width: 40px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  margin: 5px;
+  font-weight: bold;
+  box-shadow: 0 3px 3px 0 rgb(173, 98, 111);
+}
+
+.btnNav:hover {
+  cursor: pointer;
+}
+
+.btnNav:active {
+  transform: translateY(2px);
+}
+
+.btnSel {
+  width: 40px;
+  border: none;
+  background-color: rgb(173, 98, 111);
+  border-radius: 5px;
+  height: 25px;
+  margin: 5px;
+  font-weight: bold;
+  box-shadow: 0 3px 3px 0 black;
+  color: white;
+}
+
+.btnSel:hover {
+  cursor: pointer;
+}

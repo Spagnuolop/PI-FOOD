@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 500px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(173, 98, 111);
+  height: 420px;
+  background-color: #eeddd2;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.diets {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.diets span {
+  color: rgb(202, 78, 99);
+}
+
+.img {
+  margin-top: 20px;
+  filter: drop-shadow(5px 5px 10px rgb(173, 98, 111));
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+Link > h2 {
+  text-decoration: none;
+  color: black;
+}

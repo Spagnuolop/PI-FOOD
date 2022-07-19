@@ -1,0 +1,54 @@
+.wall {
+  background-image: url("../images/detail.webp");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+
+.father {
+  display: flex;
+}
+
+.top {
+  background-color: rgb(231, 210, 210);
+  height: 600px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.background {
+  background-color: rgb(231, 210, 210);
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.detailsFood {
+  font-weight: bold;
+}
+
+.btnReturn {
+  background-color: rgb(255, 97, 124);
+  box-shadow: 5px 5px 5px black;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  height: 45px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.btnReturn:hover {
+  cursor: pointer;
+}
+
+.btnReturn:active {
+  transform: translateY(2px);
+  background-color: rgb(221, 78, 102);
+}
